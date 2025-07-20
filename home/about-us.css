@@ -34,81 +34,62 @@
 .items a:hover {
     color: red;
 }
-
-.main-photo{
- background-image:url("https://images.pexels.com/photos/175045/pexels-photo-175045.jpeg");
- background-size: cover;
- background-position: center;
- background-repeat: no-repeat;
- height: 300px; 
- width: 98.3%;
- padding: 10px;   
+.banner{
+    background-image: url("https://images.pexels.com/photos/7255292/pexels-photo-7255292.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 98.5%;
+    height: 300px;
+    padding: 10px;
 }
-
-.main-photo h1{
-    position:absolute;
-    top: 150px;
-    left: 50px;
-}
-.description{
-    padding: 40px 80px;
-    font-size: 20px;
-}
-.description h2{
-    color: red;
-}
-.description p{
-    color: rgb(29, 23, 23);
-}
-.matter{
-    padding: 0px 80px;
-    font-size: 20px;
-}
-.matter h2{
-    color: rgb(236, 77, 77);
-}
-.matter p{
-    color: rgb(29, 23, 23);
-}
-.placed-students{
-    text-align: center;
-    padding-top: 40px;
-}
-.placed-students h1{
-    font-size: 40px;
-    margin: 0px;
-}
-.placed-students p{
-    font-size: 20px;
-    margin:0px;
-}
-.placed-photos img{
-    width: 280px;
-    height: 200px;
-}
-.placed-photos{
-    padding: 20px 30px;
-   background-color: #f9f9f9;
-
-}
-.images{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    margin: 0 auto;
-    width: 1200px;
+.banner h1{
+    padding-left: 80px;
+    padding-top: 100px;
+    color: white;
+    font-size: 35px;
 }
 .location-section{
     text-align: center;
+    margin-top: 20px;
 }
 .location-heading{
     font-size: 40px;
 }
+.address-cards{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.locations{
+    border: 1px solid #e0e0e0;
+    width: 350px;
+    height: 200px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    
+}
+.locations span{
+    font-size: 20px;   
+    text-align: center;
+}
+.location-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
+.locations p{
+    font-size: 18px;
+    text-align: center;
 
+}
 
-/* Footer Styling */
 .footer-end {
   background-color: #101010;
   color: #ffffff;
@@ -136,7 +117,7 @@
 }
 
 .footer-description {
-  font-size: 14px;
+  font-size: 17px;
   color: rgb(144, 133, 133);
 }
 
@@ -152,7 +133,7 @@
 }
 
 .footer-heading {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 15px;
   color: #ffffff;
@@ -182,7 +163,7 @@
 .footer-address,
 .footer-phone,
 .footer-email {
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 10px;
   color: #cccccc;
 }
@@ -192,7 +173,7 @@
   border-top: 1px solid #444;
   margin-top: 30px;
   padding-top: 20px;
-  text-align: center;
+text-align: center;
   max-width: 1200px;
   margin: 30px auto 0;
 }
@@ -200,7 +181,7 @@
 .footer-socials a {
   color: #ffffff;
   margin-right: 15px;
-  font-size: 20px;
+  font-size: 25px;
   transition: color 0.3s;
 }
 
@@ -212,9 +193,8 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    color: #cccccc;
-    font-size: 13px;
-    
+  color: #cccccc;
+  font-size: 18px;
 }
 
 .footer-policy {
@@ -238,13 +218,17 @@
   justify-content: space-around;
   align-items: center;
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 25px;
   box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2);
 }
 
-.footer-support-strip a {
-  color: #00e676;
+.footer-support-strip .footer-call a {
+  color: white;
   font-weight: bold;
+  text-decoration: none;
+}
+.footer-support-strip .footer-whatsapp a{
+  color:rgb(48, 30, 240);
   text-decoration: none;
 }
 
